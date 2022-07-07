@@ -1,0 +1,130 @@
+.back{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1654277041218-84424c78f0ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=862&q=80');
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+display:flex;
+flex-direction: column;
+
+}
+
+.logoContainer{
+  margin: 10px;
+  position: absolute;
+  width: 250px;
+  height: 70px;
+  border-radius:8px;
+  box-shadow: 0 0 10px 0 black;
+  display:flex;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+  
+  
+}
+.assesmentHead{
+  width: 250px;
+font-size: 27px;
+}
+.assesmentLogo{
+  width:50px;
+  height:50px;
+  background-color:Black;
+  border-radius:50%;
+}
+
+.credits{
+  margin: 10px;
+  width: 250px;
+  height: 70px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  display: flex;
+  box-shadow: 0 0 10px 0 black;
+  padding: 5px;
+  border-radius:10px;
+}
+.creditText{
+  font-size: 20px;
+  margin-right: 13px;
+}
+.creditLogo{
+  width: 60px;
+  height: 60px;
+  border-radius:50%;
+  overflow: hidden;
+  /* background-color:black; */
+}
+
+
+.searchBar{
+  width:100% ;
+  height: 130px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.input{
+  color: white;
+  margin-top: 20px;
+  width:300px;
+  height:40px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid grey;
+  background-color:transparent !important;
+}
+
+.btn{
+  color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  width:100px;
+  height:40px;
+  border-color: gray;
+  background-color:transparent;
+  border-radius: 10px;
+
+}
+.btn:hover{
+  background-color: grey;
+  width: 160px;
+  /* height:60px; */
+  background-color: gray;
+  color: white;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.gitIdBack{
+  margin-top:20px;
+  width: 100vw;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.gitId{
+  width:350px;
+  height:350px;
+  background-color: rgba(128, 128, 128, 0.153);
+  border-radius:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.gitAvatar{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.gitName{
+  font-family: "Helvetica Neue",Helvetica,Arial;
+}
