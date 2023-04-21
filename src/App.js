@@ -11,11 +11,12 @@ const App = () => {
   publicGits: "",
   creationTime: "", });
 
+  
   const OnChangeHandler = (e) => {
     setstate({ [e.target.name]: e.target.value });
   };
 
-  
+
   const OnSearchData = () => {
     axios
       .get(`https://api.github.com/users/${state.gituser}`)
